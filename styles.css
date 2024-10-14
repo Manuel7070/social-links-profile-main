@@ -21,3 +21,33 @@ body {
   align-items: center;
   min-height: 100vh;
 }
+
+.profile-card {
+  background-color: hsl(0, 0%, 12%);
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  width: 23.4375rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-img {
+  width: 6.25rem;
+  height: 6.25rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.location {
+  color: hsl(47, 88%, 63%);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
