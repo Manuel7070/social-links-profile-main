@@ -51,3 +51,16 @@ body {
   font-weight: 500;
   margin-bottom: 1rem;
 }
+
+.bio {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: hsl(0, 0%, 42%);
+}
+
+/*Social Links*/
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
