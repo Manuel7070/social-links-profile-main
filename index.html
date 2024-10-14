@@ -3,36 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
+    <!-- Favicon -->
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap"
       rel="stylesheet"
     />
-
-    <title>Frontend Mentor | Social links profile</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Social Links Profile</title>
   </head>
   <body>
-    Jessica Randall London, United Kingdom "Front-end developer and avid
-    reader." GitHub Frontend Mentor LinkedIn Twitter Instagram
+    <main class="card-container">
+      <div class="profile-card">
+        <img
+          src="./assets/images/profile.jpg"
+          alt="Profile Image of Jessica Randall"
+          class="profile-img"
+        />
+        <h1 class="name">Jessica Randall</h1>
+        <p class="location">London, United Kingdom</p>
+        <p class="bio">Front-end developer and avid reader.</p>
+
+        <div class="social-links">
+          <a href="#" class="social-btn">GitHub</a>
+          <a href="#" class="social-btn">Frontend Mentor</a>
+          <a href="#" class="social-btn">LinkedIn</a>
+          <a href="#" class="social-btn">Twitter</a>
+          <a href="#" class="social-btn">Instagram</a>
+        </div>
+      </div>
+    </main>
 
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by
-      <a
-        href="https://github.com/Manuel7070/blog-preview-card-main/blob/main/index.html"
-        >Manuel</a
-      >.
+      >. Coded by <a href="#">Manuel</a>.
     </div>
   </body>
 </html>
