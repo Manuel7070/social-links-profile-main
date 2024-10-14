@@ -89,3 +89,7 @@ body {
   text-align: center;
   color: hsl(0, 0%, 42%);
 }
+
+.attribution a {
+    color: hsl(47, 88%, 63%);
+}
