@@ -6,4 +6,18 @@
 
 body {
   font-family: "inter", sans-serif;
+  background-color: hsl(0, 0%, 7%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+/* Main card container*/
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
