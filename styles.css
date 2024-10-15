@@ -12,11 +12,15 @@ body {
   align-items: center;
   min-height: 100vh;
   padding: 1rem;
+  flex-direction: column;
 }
 
 main {
   max-width: 375px;
   margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 /* Main card container*/
@@ -96,5 +100,12 @@ main {
 }
 
 .attribution a {
-  color: hsl(47, 88%, 63%);
+  color: hsl(67, 88%, 49%);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
