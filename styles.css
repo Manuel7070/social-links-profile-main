@@ -18,9 +18,6 @@ body {
 main {
   max-width: 375px;
   margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-  
 }
 
 /* Main card container*/
@@ -29,6 +26,18 @@ main {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+}
+
+.sr-only {
+  position: absolute;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  padding: 0;
+  margin: -0.0625rem;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
 
 .profile-card {
@@ -51,15 +60,16 @@ main {
 .name {
   color: hsl(0, 0%, 100%);
   font-size: 1.5rem;
-  font-weight: 800;
+  font-weight: 500;
   margin-bottom: 0.5rem;
 }
 
 .location {
   color: hsl(67, 88%, 49%);
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 .bio {
@@ -94,6 +104,7 @@ main {
 /* Attribution */
 .attribution {
   margin-top: 2rem;
+  margin-bottom: 2rem;
   font-size: 0.875rem;
   text-align: center;
   color: hsl(0, 0%, 42%);
@@ -101,11 +112,4 @@ main {
 
 .attribution a {
   color: hsl(67, 88%, 49%);
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  margin-top: 5px;
-  margin-bottom: 10px;
 }
